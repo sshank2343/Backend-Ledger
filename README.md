@@ -33,10 +33,13 @@ Create a `.env` file in the project root with at least:
 
 Example `.env`:
 
-MONGO_URI=mongodb+srv://<user>:<pass>@cluster.example/dbname
-JWT_SECRET=your_jwt_secret_here
-EMAIL_USER=youremail@gmail.com
-EMAIL_PASS=your_email_password_or_app_password
+--> MONGO_URI=mongodb+srv://<user>:<pass>@cluster.example/dbname
+
+--> JWT_SECRET=your_jwt_secret_here
+
+--> EMAIL_USER=youremail@gmail.com
+
+--> EMAIL_PASS=your_email_password_or_app_password
 
 ## Install
 
@@ -107,9 +110,3 @@ Base paths are mounted in `src/app.js`:
 ## Development & Testing
 - Run the dev server: `npm run dev`
 - There are no automated tests included in this repo (the `test` script is a placeholder).
-
-## Contributing
-- Open issues or PRs with improvements, bug fixes, or documentation updates.
-
-## License
-- MIT (or adapt as needed)
